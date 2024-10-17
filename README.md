@@ -1,6 +1,8 @@
 # people_card
 
 # Описание проекта
+digital_profile_examples.txt содержит примеры цифрового пользователя.
+
 Для отправки и получения данных из ipfs используется модуль send_data_to_ipfs.py
  1. Необходимо установить программу IPFS DESKTOP
  2. Установить python

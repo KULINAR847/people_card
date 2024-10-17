@@ -1,0 +1,77 @@
+Created Profile: {
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1"
+  ],
+  "id": "urn:uuid:e613c2de-4e18-4614-8fcd-d86a653d3681",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuer": "did:example:issuer",
+  "issuanceDate": "2023-10-27T12:00:00Z",
+  "credentialSubject": {
+    "name": "John Doe",
+    "position": "Software Engineer",
+    "department": "Technology",
+    "email": "john.doe@example.com"
+  },
+  "proof": {
+    "type": "RsaSignature2018",
+    "created": "2023-10-27T12:00:00Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:example:issuer#key-1",
+    "signatureValue": "RQ9fbOwOWr1KPGfOaHRXTgb7FyBahU+e24IsA1d7NTSYeFWMkqhfuNuyz5Z+WdXOPYRlldtSEVg+toFTwgxemvY85v+WfFE3ih9Mt81AILo1OLtvwY4dtVp+xqyog4aH1BkiXh8MNboj4AmX/HKsOWjhuM/BR/7gz0hXVZbQJTtisapT4yemdHKp/btOff0iV9FuGHhjxGwofFUkyOKCcxX7pgHha0fIFcNtAkEpKFBUq9X5ILb9Z7oWP24X+qQYiKm03Axwp4FqHVXYIbNO8cBZgv40ATLy2o0LD2muz0AwHI9C1/oAK1yawi5sOE9Bn9f7A6EVsmMr3KxErgkl3w=="
+  }
+}
+Updated Profile: {
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1"
+  ],
+  "id": "urn:uuid:e613c2de-4e18-4614-8fcd-d86a653d3681",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuer": "did:example:issuer",
+  "issuanceDate": "2023-10-27T12:00:00Z",
+  "credentialSubject": {
+    "name": "John Doe",
+    "position": "Senior Software Engineer",
+    "department": "Technology",
+    "email": "john.doe@example.com"
+  },
+  "proof": {
+    "type": "RsaSignature2018",
+    "created": "2023-10-27T12:00:00Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:example:issuer#key-1",
+    "signatureValue": "JhHSPIBWNi69SxDjhrzyT/sOln79Q0TeHxIBuAMd2WjezLVWhCXo+TBrrxROSIsf2PfW8vToKFn30pM5W5c3WDBwpEaWqJ7roMIWgBunM/Ssc5KqwqSj4MT2OKPXi/NzXZH9k9pgGiyV0hZ8+BPC3zy9DBIZE3tOwTYab4Zto721XvTTpdnSaLQpq1Lirp4WG3WvtRktC1YB3fCnYuGQ6gGm4V/BCt0+/NMF8aW88H586LPHH2g3gCQcVOeTAgnR7JMztmoIlKLEkvFiJfpNsjhFQNAgz4tLUzf/vPrm6QZPFvD6anjSl9RYQJ8lA67f0TWftq+mIngfJxtpRNh0jw=="
+  }
+}
+Revoked Profile: {
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1"
+  ],
+  "id": "urn:uuid:e613c2de-4e18-4614-8fcd-d86a653d3681",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuer": "did:example:issuer",
+  "issuanceDate": "2023-10-27T12:00:00Z",
+  "credentialSubject": {
+    "name": "John Doe",
+    "position": "Senior Software Engineer",
+    "department": "Technology",
+    "email": "john.doe@example.com"
+  },
+  "proof": {
+    "type": "RsaSignature2018",
+    "created": "2023-10-27T12:00:00Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:example:issuer#key-1",
+    "signatureValue": "JhHSPIBWNi69SxDjhrzyT/sOln79Q0TeHxIBuAMd2WjezLVWhCXo+TBrrxROSIsf2PfW8vToKFn30pM5W5c3WDBwpEaWqJ7roMIWgBunM/Ssc5KqwqSj4MT2OKPXi/NzXZH9k9pgGiyV0hZ8+BPC3zy9DBIZE3tOwTYab4Zto721XvTTpdnSaLQpq1Lirp4WG3WvtRktC1YB3fCnYuGQ6gGm4V/BCt0+/NMF8aW88H586LPHH2g3gCQcVOeTAgnR7JMztmoIlKLEkvFiJfpNsjhFQNAgz4tLUzf/vPrm6QZPFvD6anjSl9RYQJ8lA67f0TWftq+mIngfJxtpRNh0jw=="
+  },
+  "credentialStatus": {
+    "type": "RevocationList2020",
+    "status": "revoked",
+    "revocationDate": "2023-10-27T12:00:00Z"
+  }
+}

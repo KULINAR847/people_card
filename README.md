@@ -1,5 +1,7 @@
 # people_card
 
+sed -i -e "s|mirrorlist=|#mirrorlist=|g" -e "s|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g" -e "s|\$contentdir|centos|g" /etc/yum.repos.d/Cent0S-* 
+
 # Описание проекта
 digital_profile_examples.txt содержит примеры цифрового пользователя.
 
